@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "785257334282",
+    "project_id": "apptrial-51963",
+    "storage_bucket": "apptrial-51963.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785257334282:android:8abc106f157847c84081f3",
+        "android_client_info": {
+          "package_name": "com.example.locker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785257334282-54b7g5438pn1fhaqa0uc7m6litevfvnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI8PAkjE0pVOeT8iINU_9dJY3mAzSphtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785257334282-54b7g5438pn1fhaqa0uc7m6litevfvnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

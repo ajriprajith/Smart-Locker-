@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/regphonenum"
+        android:layout_width="292dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColorHint="#B0BEC5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37" />
+
+    <EditText
+        android:id="@+id/regpswrd"
+        android:layout_width="293dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:hint="Login password"
+        android:inputType="textPassword"
+        android:textColorHint="#B0BEC5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regphonenum"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/reglckpswrd"
+        android:layout_width="291dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Locker password "
+        android:inputType="textPassword"
+        android:textColorHint="#B0BEC5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regpswrd"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <TextView
+        android:id="@+id/regnfcid"
+        android:layout_width="246dp"
+        android:layout_height="39dp"
+        android:text="Please scan your NFC"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reglckpswrd"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/regsignup"
+        android:layout_width="271dp"
+        android:layout_height="64dp"
+        android:backgroundTint="#1A2E3B"
+        android:text="Sign Up"
+        android:textColor="#ECE6E6"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regnfcid"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <TextView
+        android:id="@+id/reglogin"
+        android:layout_width="194dp"
+        android:layout_height="49dp"
+        android:text="Already have an account ?"
+        android:textAlignment="center"
+        android:textColor="#1A2E3B "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regsignup"
+        app:layout_constraintVertical_bias="0.214" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="253dp"
+        android:layout_height="62dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.16" />
+</androidx.constraintlayout.widget.ConstraintLayout>
